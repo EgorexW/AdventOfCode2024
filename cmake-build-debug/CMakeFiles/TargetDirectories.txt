@@ -1,0 +1,3 @@
+/Users/egorexw/Documents/Coding/AdventOfCode2024/cmake-build-debug/CMakeFiles/AdventOfCode2024.dir
+/Users/egorexw/Documents/Coding/AdventOfCode2024/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/egorexw/Documents/Coding/AdventOfCode2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
