@@ -69,28 +69,28 @@ include CMakeFiles/AdventOfCode2024.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AdventOfCode2024.dir/flags.make
 
-CMakeFiles/AdventOfCode2024.dir/13.cpp.o: CMakeFiles/AdventOfCode2024.dir/flags.make
-CMakeFiles/AdventOfCode2024.dir/13.cpp.o: /Users/egorexw/Documents/Coding/AdventOfCode2024/13.cpp
-CMakeFiles/AdventOfCode2024.dir/13.cpp.o: CMakeFiles/AdventOfCode2024.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/egorexw/Documents/Coding/AdventOfCode2024/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AdventOfCode2024.dir/13.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventOfCode2024.dir/13.cpp.o -MF CMakeFiles/AdventOfCode2024.dir/13.cpp.o.d -o CMakeFiles/AdventOfCode2024.dir/13.cpp.o -c /Users/egorexw/Documents/Coding/AdventOfCode2024/13.cpp
+CMakeFiles/AdventOfCode2024.dir/16.cpp.o: CMakeFiles/AdventOfCode2024.dir/flags.make
+CMakeFiles/AdventOfCode2024.dir/16.cpp.o: /Users/egorexw/Documents/Coding/AdventOfCode2024/16.cpp
+CMakeFiles/AdventOfCode2024.dir/16.cpp.o: CMakeFiles/AdventOfCode2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/egorexw/Documents/Coding/AdventOfCode2024/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AdventOfCode2024.dir/16.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventOfCode2024.dir/16.cpp.o -MF CMakeFiles/AdventOfCode2024.dir/16.cpp.o.d -o CMakeFiles/AdventOfCode2024.dir/16.cpp.o -c /Users/egorexw/Documents/Coding/AdventOfCode2024/16.cpp
 
-CMakeFiles/AdventOfCode2024.dir/13.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventOfCode2024.dir/13.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/egorexw/Documents/Coding/AdventOfCode2024/13.cpp > CMakeFiles/AdventOfCode2024.dir/13.cpp.i
+CMakeFiles/AdventOfCode2024.dir/16.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventOfCode2024.dir/16.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/egorexw/Documents/Coding/AdventOfCode2024/16.cpp > CMakeFiles/AdventOfCode2024.dir/16.cpp.i
 
-CMakeFiles/AdventOfCode2024.dir/13.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventOfCode2024.dir/13.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/egorexw/Documents/Coding/AdventOfCode2024/13.cpp -o CMakeFiles/AdventOfCode2024.dir/13.cpp.s
+CMakeFiles/AdventOfCode2024.dir/16.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventOfCode2024.dir/16.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/egorexw/Documents/Coding/AdventOfCode2024/16.cpp -o CMakeFiles/AdventOfCode2024.dir/16.cpp.s
 
 # Object files for target AdventOfCode2024
 AdventOfCode2024_OBJECTS = \
-"CMakeFiles/AdventOfCode2024.dir/13.cpp.o"
+"CMakeFiles/AdventOfCode2024.dir/16.cpp.o"
 
 # External object files for target AdventOfCode2024
 AdventOfCode2024_EXTERNAL_OBJECTS =
 
-AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/13.cpp.o
+AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/16.cpp.o
 AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/build.make
 AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/egorexw/Documents/Coding/AdventOfCode2024/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AdventOfCode2024"

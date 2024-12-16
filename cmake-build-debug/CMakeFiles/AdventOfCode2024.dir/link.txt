@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/AdventOfCode2024.dir/13.cpp.o -o AdventOfCode2024
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/AdventOfCode2024.dir/16.cpp.o -o AdventOfCode2024

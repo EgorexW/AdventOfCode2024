@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/egorexw/Documents/Coding/AdventOfCode2024/13.cpp" "CMakeFiles/AdventOfCode2024.dir/13.cpp.o" "gcc" "CMakeFiles/AdventOfCode2024.dir/13.cpp.o.d"
+  "/Users/egorexw/Documents/Coding/AdventOfCode2024/16.cpp" "CMakeFiles/AdventOfCode2024.dir/16.cpp.o" "gcc" "CMakeFiles/AdventOfCode2024.dir/16.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
