@@ -6,7 +6,7 @@ using namespace std;
 
 int X = 101;
 int Y = 103;
-int moves = 1;
+int moves = 10000000;
 
 struct Robot {
     int posX;
@@ -16,8 +16,8 @@ struct Robot {
 };
 
 void MoveRobot(Robot &robot) {
-    robot.posX += robot.vX * moves;
-    robot.posY += robot.vY * moves;
+    robot.posX += robot.vX;
+    robot.posY += robot.vY;
     while (robot.posX < 0) {
         robot.posX += X;
     }
@@ -46,25 +46,49 @@ int main() {
     }
 
     for (int i = 0; i < moves; i++) {
-        cout << "Move: " << moves*(i+1) << endl;
         for (auto robot : robots) {
             MoveRobot(robot);
         }
-        // for (int y = 0; y < Y; y++) {
-        //     for (int x = 0; x < X; x++) {
-        //         bool found = false;
-        //         for (auto &robot : robots) {
-        //             if (robot.posX == x && robot.posY == y) {
-        //                 cout << '#';
-        //                 found = true;
-        //                 break;
-        //             }
-        //         }
-        //         if (!found) {
-        //             cout << '.';
-        //         }
-        //     }
-        //     cout << endl;
-        // }
+        map<pair<int, int>, int> positions;
+        for (const auto &robot : robots) {
+            positions[{robot.posX, robot.posY}]++;
+        }
+
+        int maxXCount = 0, maxYCount = 0;
+        map<int, int> xCounts, yCounts;
+
+        for (const auto &robot : robots) {
+            xCounts[robot.posX]++;
+            yCounts[robot.posY]++;
+        }
+
+        for (const auto &xCount : xCounts) {
+            maxXCount = max(maxXCount, xCount.second);
+        }
+
+        for (const auto &yCount : yCounts) {
+            maxYCount = max(maxYCount, yCount.second);
+        }
+
+        if (maxXCount < robots.size() / 2 || maxYCount < robots.size() / 2) {
+            continue;
+        }
+        cout << "Move: " << (i+1) << endl;
+        for (int y = 0; y < Y; y++) {
+            for (int x = 0; x < X; x++) {
+                bool found = false;
+                for (const auto &robot : robots) {
+                    if (robot.posX == x && robot.posY == y) {
+                        cout << '#';
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) {
+                    cout << '.';
+                }
+            }
+            cout << endl;
+        }
     }
 }

@@ -3,8 +3,9 @@
 #include <set>
 using namespace std;
 
-int X = 130;
-int Y = 130;
+int Size = 15;
+int X = Size;
+int Y = Size;
 
 void Rotate(pair<int, int> &guardsDir) {
     if (guardsDir.first != 0) {
